@@ -1,0 +1,98 @@
+body {
+    background: rgba(0, 0, 0, 0.7)url('../images/background/bg.jpg');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#form {
+    max-width: 450px; 
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form #lien {
+    text-decoration: none;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 15px;
+}
+form #lien:hover {
+    color: orangered;
+}
+
+#form h1 {
+    color: #ffffff; 
+    text-align: center;
+    font-size: 28px;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#form button:hover {
+    background-color: rgb(192, 55, 5);
+    
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: white; 
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    color: black; 
+}
+
+.input-control input:focus {
+    outline: 0;
+    background: rgb(255, 255, 255); 
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color:red;
+}
+
+.input-control .error {
+    color: red;
+    font-size: 12px;
+    height: 13px;
+    margin-bottom: 12px;
+}
