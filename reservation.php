@@ -109,7 +109,7 @@ $titre = "Réservation";
 require_once("includes/navbar.php");
 ?>
 
-<section class="py-2">
+<section class="py-3">
     <div class="containere">
         <div class="container-time">
             <h2 class="heading">Heures d'Ouverture</h2>

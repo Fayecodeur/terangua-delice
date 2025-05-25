@@ -17,8 +17,7 @@ require_once("includes/navbar.php");
           <div class="sec-title text-center mb-5">
             <p class="sec-sub-title mb-3">Nos menu</p>
             <h2 class="h2-title">
-              Découvrez l'authenticité de la cuisine sénégalaise à
-              travers <span>nos spécialités savoureuses.</span>
+              Savourez l’authenticité de la cuisine sénégalaise.
             </h2>
             <div class="sec-title-shape mb-4">
               <img src="assets/images/title-shape.svg" alt="" />

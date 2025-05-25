@@ -60,7 +60,7 @@
                                               <li><a href="acceuil.php">Acceuil</a></li>
                                               <li><a href="menu.php">Nos Menu</a></li>
                                               <li><a href="equipe.php">Notre équipe</a></li>
-                                              <li><a href="reservation.php">Résrvation</a></li>
+                                              <li><a href="reservation.php">Réservation</a></li>
                                               <li><a href="logout.php">Déconnexion</a></li>
                                           <?php endif; ?>
                                       </ul>
@@ -84,11 +84,15 @@
                       <div class="col-lg-12 text-center">
                           <div class="copyright-text">
                               <p>
-                                  Copyright &copy; 2024 Téranga Délice. Tous droits
-                                  réservés.
-                                  <span class="name">Demba Faye</span>
+                                  Copyright &copy; 2024
+                                  Téranga Délice. Tous droits réservés.
+                                  <a href="https://www.dembafaye.com" target="_blank" style="text-decoration: none; color: inherit;">
+                                      <span class="name">Demba Faye</span>
+                                  </a>
                               </p>
                           </div>
+
+
                       </div>
                   </div>
                   <button class="scrolltop">
