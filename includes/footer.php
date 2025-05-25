@@ -60,7 +60,7 @@
                                               <li><a href="acceuil.php">Acceuil</a></li>
                                               <li><a href="menu.php">Nos Menu</a></li>
                                               <li><a href="equipe.php">Notre équipe</a></li>
-                                              <li><a href="reservation.php">Réservation</a></li>
+                                              <li><a href="reservation.php">Résrvation</a></li>
                                               <li><a href="logout.php">Déconnexion</a></li>
                                           <?php endif; ?>
                                       </ul>
@@ -92,12 +92,11 @@
                               </p>
                           </div>
 
-
                       </div>
                   </div>
-                  <button class="scrolltop">
+                  <!-- <button class="scrolltop">
                       <i class="uil uil-angle-up"></i>
-                  </button>
+                  </button> -->
               </div>
           </div>
       </footer>
