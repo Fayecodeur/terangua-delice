@@ -79,21 +79,11 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       setSuccess(email);
     }
-
     if (passwordValue === "") {
       setError(password, "Le mot de passe est obligatoire");
       isValid = false;
-    } else if (passwordValue.length < 8) {
-      setError(password, "Le mot de passe doit contenir au moins 8 caractères");
-      isValid = false;
-    } else if (!/[A-Z]/.test(passwordValue)) {
-      setError(password, "Le mot de passe doit contenir au moins 1 majuscule");
-      isValid = false;
-    } else if (!/[a-z]/.test(passwordValue)) {
-      setError(password, "Le mot de passe doit contenir au moins 1 minuscule");
-      isValid = false;
-    } else if (!/[0-9]/.test(passwordValue)) {
-      setError(password, "Le mot de passe doit contenir au moins 1 chiffre");
+    } else if (passwordValue.length < 5) {
+      setError(password, "Le mot de passe doit contenir au moins 5 caractères");
       isValid = false;
     } else {
       setSuccess(password);

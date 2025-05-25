@@ -42,10 +42,11 @@ if (isset($_POST["register"])) {
     $mdpErr = "Le mot de passe est obligatoire.";
   } else {
     $mdp = test_input($_POST["mdp"]);
-    if (!preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/", $mdp)) {
-      $mdpErr = "Le mot de passe doit contenir au moins 8 caractères, une majuscule, une minuscule et un chiffre.";
+    if (strlen($mdp) < 5) {
+      $mdpErr = "Le mot de passe doit contenir au moins 5 caractères.";
     }
   }
+
 
   if (empty($_POST["mdpConfirme"])) {
     $mdpConfirmeErr = "La confirmation du mot de passe est obligatoire.";
